@@ -36,14 +36,6 @@ class ProblemTestCase(unittest.TestCase):
         self.assertTrue(validated_list is None)
 
 
-    def test_sort_presenters(self):
-        """test if presenters are sorted by duration"""
-
-        presenters = [['rohit', '2', '100'], ['rajeev', '3', '50'], ['sanjeev', '4', '200'], ['saksham', '5', '300'],
-                        ['hemant', '1', '200']]
-        sorted_list = sort_presenters(presenters)
-
-        self.assertEqual(sorted_list, [['hemant', '1', '200'],['rohit', '2', '100'], ['rajeev', '3', '50'], ['sanjeev', '4', '200'], ['saksham', '5', '300']])
 
     def test_subset_sum(self):
         """test if max no of presenters are selected"""
