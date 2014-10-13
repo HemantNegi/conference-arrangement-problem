@@ -14,7 +14,7 @@ class ProblemTestCase(unittest.TestCase):
     def test_load_sample_data_from_csv(self):
 
         """is able to load data from sample file in list format"""
-        data = load_data('sample.csv')
+        data = load_data('Hemant-3.txt')
         self.assertEqual(type(data), list)
 
         if len(data) > 0:

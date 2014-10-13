@@ -31,7 +31,7 @@ def main(argv):
 
     # loads csv data from a sample.csv file in the format of a list
     # eg: [['hemant', '1', '200'], ['amit', '1', '300']]
-    presenters = load_data('sample.csv')
+    presenters = load_data('Hemant-3.txt')
 
     # validates the list (to improve performance)
     # remove those presenters whose time is > N/2 and check if they are less than num_sessions
